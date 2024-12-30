@@ -71,7 +71,7 @@ def main():
                 f'Day1留存率(%)', 
                 value=80.0, 
                 min_value=0.0, 
-                max_value=100.0,
+                max_value=1000.0,
                 key=f'day1_{year}'
             )
         with col2:
@@ -79,7 +79,7 @@ def main():
                 f'Day7留存率(%)', 
                 value=40.0, 
                 min_value=0.0, 
-                max_value=100.0,
+                max_value=1000.0,
                 key=f'day7_{year}'
             )
         with col3:
@@ -87,7 +87,7 @@ def main():
                 f'Day30留存率(%)', 
                 value=20.0, 
                 min_value=0.0, 
-                max_value=100.0,
+                max_value=1000.0,
                 key=f'day30_{year}'
             )
         
